@@ -1,0 +1,5 @@
+.wrap {
+  width: 600rpx;
+  min-height: 200rpx;
+  background-color: #FFFFFF;
+}

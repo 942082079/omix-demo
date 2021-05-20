@@ -1,0 +1,6 @@
+<view class="wrap">
+  <block wx:for="list">
+    <view></view>
+  </block>
+</view>
+  

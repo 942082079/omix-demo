@@ -1,0 +1,16 @@
+<view>
+	<view class="title">
+		<text>Todo List</text>
+		<view class="input">
+			<van-field modle:value="{{value}}" placeholder="what needs to be done?" />
+			<van-button plain type="default" bindtap="clickSelectLevel">{{level}}</van-button>
+			<view>
+				<van-button plain type="default" bindtap="clickSubmit">提交</van-button>
+			</view>
+		</view>
+	</view>
+	<view class="flex">
+		<list></list>
+	</view>
+	<van-toast id="van-toast"/>
+</view>
